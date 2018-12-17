@@ -2,9 +2,7 @@
 #### Numbers and more in Python! ####
 #####################################
 
-# In this lecture, we will learn about numbers in Python and how to use them.
-#
-# We'll learn about the following topics:
+# Numbers in Python and how to use them.
 #
 #     1.) Types of Numbers in Python
 #     2.) Basic Arithmetic
@@ -18,7 +16,7 @@
 #
 # Integers are just whole numbers, positive or negative. For example: 2 and -2 are
 #  examples of integers.
-# 
+#
 # Floating point numbers in Python are notable because they have a decimal point
 # in them, or use an exponential (e) to define the number. For example 2.0 and -2.1
 # are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is
