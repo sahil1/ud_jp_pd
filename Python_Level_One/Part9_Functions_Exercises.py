@@ -22,6 +22,13 @@
 
 def arrayCheck(nums):
     # CODE GOES HERE
+    for i in range(len(nums)-2):
+        # Check in sets of 3 if we have 1,2,3 in a row
+        if nums[i]==1 and nums[i+1]==2 and nums[i+2]==3:
+            return True
+    return False
+
+print(arrayCheck([1, 1, 2, 3, 1]));
 
 
 #####################
@@ -38,9 +45,14 @@ def arrayCheck(nums):
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
+  result=""
+  for i in range(len(str)):
+    if i % 2 == 0:
+      result = result + str[i]
+  return result
   # CODE GOES HERE
 
-
+print(stringBits('Hello'));
 #####################
 ## -- PROBLEM 3 -- ##
 #####################
@@ -57,8 +69,8 @@ def stringBits(str):
 # end_other('AbC', 'HiaBc') → True
 # end_other('abc', 'abXabc') → True
 
-
 def end_other(a, b):
+    return 'code';
   # CODE GOES HERE
 
 #####################
@@ -97,9 +109,11 @@ def doubleChar(str):
 # no_teen_sum(2, 13, 1) → 3
 # no_teen_sum(2, 1, 14) → 3
 
-def no_teen_sum(a, b, c):
+    def no_teen_sum(a, b, c):
+        return
   # CODE GOES HERE
-def fix_teen(n):
+    def fix_teen(n):
+        return
   # CODE GOES HERE
 
 #####################
@@ -115,4 +129,5 @@ def fix_teen(n):
 # count_evens([1, 3, 5]) → 0
 
 def count_evens(nums):
+    return
   # CODE GOES HERE
