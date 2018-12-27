@@ -11,3 +11,7 @@ Start/Run Project:
 
 Create Application within Django Project:
   python manage.py startapp first_app
+
+File/Dir Path from import os:
+  print(__file__)
+  print(os.path.dirname(__file__))
