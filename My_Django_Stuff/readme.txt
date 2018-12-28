@@ -15,3 +15,24 @@ Create Application within Django Project:
 File/Dir Path from import os:
   print(__file__)
   print(os.path.dirname(__file__))
+
+------------------------------------------
+Django create models:
+  python manage.py migrate
+  python manage.py makemigrations first_app
+  python manage.py migrate
+
+Verify DB:
+  python manage.py shell
+>>> print('hello')
+hello
+>>> print(Topic.objects.all())
+<QuerySet []>
+>>> T = Topic(top_name="Social Network")
+>>> T.save()
+>>> print(Topic.objects.all())
+<QuerySet [<Topic: Social Network>]>
+>>> quit()
+
+Create SuperUser:
+  python manage.py createsuperuser (sahil, gmail, testpassword)
